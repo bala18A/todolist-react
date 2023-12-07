@@ -1,0 +1,202 @@
+/* ========================================================= */
+/* Style inputs, select elements and textareas */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* ======================header/footer */
+
+.head {
+  text-align: center;
+  background-color: rgb(227, 7, 143);
+  padding: 20px 0px;
+  font-size: 25px;
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+.header{
+  position: fixed;
+  top:0;
+  width:100%;
+}
+
+
+.foot {
+  text-align: center;
+  background-color: rgb(227, 7, 143);
+  padding: 20px 0px;
+  font-size: 25px;
+  color: white;
+  bottom: 0px;
+  width: 100%;
+  margin: 0 auto;
+}
+.footer
+{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* ============================== */
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  /* margin: 20px; */
+
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  input[type=submit] {
+    margin-top: 12px;
+  }
+}
+
+/* =======================main datas */
+.content {
+  width: 100%;
+  margin: 0 auto;
+  }
+
+.content li {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+ul {
+  /* background-color: rgb(70, 67, 67); */
+  margin: 80%;
+  margin: 0 auto;
+  min-height: 300px;
+  background-color: #f2f2f2;
+}
+
+.content span {
+  width: 50%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.content input {
+  width: 10%;
+  padding: 10px;
+}
+
+.content button {
+  /* width:40% ; */
+  padding: 10px 30px;
+}
+
+.content .btn:hover {
+  background-color: #04AA6D;
+  color: white;
+  border-color: #04AA6D;
+  border-radius: 5px;
+}
+
+.empty {
+  text-align: center;
+  background-color: rgb(227, 22, 7);
+  padding: 20px 90px;
+  font-size: 25px;
+  color: white;
+  border-radius: 10px;
+  margin: 50px 0px
+}
+
+/* ==========media main */
+@media screen and (max-width: 600px) {
+
+
+  .content input {
+    margin-left: 10px;
+  }
+
+  .input input {
+    padding: 5px;
+  }
+
+  .empty {
+
+    text-align: center;
+    background-color: rgb(227, 22, 7);
+    padding: 10px 45px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    margin: 25px 0px
+  }
+  /* ===============edit button kaana codes */
+/* .edit
+{
+  margin-left: 5px;
+  margin-right: ;
+} */
+
+}
