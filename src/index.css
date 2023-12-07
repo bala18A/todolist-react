@@ -31,16 +31,11 @@
   padding: 20px 0px;
   font-size: 25px;
   color: white;
-  bottom: 0px;
+  
   width: 100%;
   margin: 0 auto;
 }
-.footer
-{
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+
 
 /* ============================== */
 input[type=text] {
@@ -193,10 +188,6 @@ ul {
     margin: 25px 0px
   }
   /* ===============edit button kaana codes */
-/* .edit
-{
-  margin-left: 5px;
-  margin-right: ;
-} */
+
 
 }
